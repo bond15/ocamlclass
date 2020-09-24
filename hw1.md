@@ -2,9 +2,9 @@
 ## 1
 For each of the following, investigate the OCaml manual to find out what OCaml has, and explain in your own words how OCaml compares to another language of your choice (perhaps Java or Python). Make sure to try out examples in the toplevel.
 
-primitive types
-operators
-assertions
+- primitive types
+- operators
+- assertions
 ## 2 
 How do OCaml if expressions compare and contrast with if commands in imperative languages, such as Java and Python? And with ternary operators? (If you're not already familiar with ternary operators in those languages, now's a good time to look them up!)
 
