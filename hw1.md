@@ -3,6 +3,11 @@
 For each of the following, investigate the OCaml manual to find out what OCaml has, and explain in your own words how OCaml compares to another language of your choice (perhaps Java or Python). Make sure to try out examples in the toplevel.
 
 - primitive types
+  Ocaml has:
+  - Basics: bools, immutable strings, characters, tuples, arrays, lists, functions, records, variants, polymorphic types, recursive types.
+    mostly the same as Haskell except for Generalize Algebraid Data Types(GADTs) are part of the language and not an extension.
+    Ocaml preferes Modules to Haskells typeclasses (Automatic derivation of typeclass instances is not built into Ocaml, achieved via plugin)
+    Main method not forced in IO monad (as Haskells is)
 - operators
 - assertions
 ## 2 
