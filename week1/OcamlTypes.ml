@@ -78,7 +78,7 @@ let ex = map (fun x -> x + 2) (Some 7)
 
 module type Monad = sig
   type 'a f
-  val pure : 'a -> 'a f
+  val pure : 'a -> 'a f`
   val bind : ('a -> 'b f) -> 'a f -> 'b f
 end
 
